@@ -61,8 +61,6 @@ class BookAdapter(
 
                 }
             }
-
-
         holder.likeIV.setOnClickListener {
             GlobalScope.launch {
                 holder.likeIV.startAnimation(scaleUp)
